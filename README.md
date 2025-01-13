@@ -26,10 +26,10 @@ The tool will:
 
 ---
 
-## Technicalities
+## Technologies
 
 ### Programming Language:
-- Python (with options to extend functionality to C++ or Fortran for optimization).  
+- Python (with options to extend functionality to C,  Rust or Zig for optimization).  
 
 ### Dependencies:
 - `numpy`, `scipy`: For numerical computations.  
@@ -39,8 +39,8 @@ The tool will:
 ### How to run it:
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/hartree-fock-calculator.git
-   cd hartree-fock-calculator
+   git clone https://github.com/dimonich00/HF.git
+   cd HF
    ```
 2. Install dependencies:  
    ```bash
@@ -59,6 +59,3 @@ This tool can serve as an educational platform for understanding quantum chemist
 
 ---
 
-## Acknowledgments
-
-This project was developed as part of the course *[Insert Course Name Here]*. For more information, visit the course repository [Insert Link Here].
