@@ -2,25 +2,25 @@
 
 ## What does this project do?
 
-This project is a computational tool designed to calculate the electronic energy of simple molecules using the Hartree-Fock method. The Hartree-Fock method is a fundamental quantum chemistry algorithm that approximates the solution to the Schrödinger equation by considering electron-electron interactions in a mean-field approach.  
+One of the primary methods in a chemist's toolkit for predicting the properties of chemical compounds is quantum-chemical calculations. These calculations are usually performed using specialized software packages (Gaussian, Orca, Gammes). There are also Python packages designed for these purposes, such as PySCF and Psi4. However, using each of these requires knowledge of specific syntax, which can be challenging to navigate. Therefore, the goal of this project is to develop a Python wrapper that accepts an executable file containing the name of the software package to be used and the description of the method to be applied for the molecular calculation. This executable file is based on the structure of the executable files used by the Orca package, making it familiar to computational chemists.
 
 The tool will:
-- Accept input molecular geometries and basis sets.
-- Compute the Hartree-Fock energy using iterative self-consistent field (SCF) optimization.
-- Optionally output intermediate results, such as overlap matrices and molecular orbitals.
+- Accept input file with parameters (package, method, basis set and molecule).
+- Call chosen library with parameters from input file.
+- Print results in a console output or output file.
 
 ---
 
 ## What kind of input data does it expect?
 
-- **Molecular structure**: A list of atoms and their 3D Cartesian coordinates (e.g., in XYZ format).  
+- **Molecular structure**: A list of atoms and their 3D Cartesian coordinates (e.g., in [XYZ format](https://en.wikipedia.org/wiki/XYZ_file_format)).  
 - **Basis set**: A predefined basis set (e.g., STO-3G or 6-31G) to describe the atomic orbitals.  
 
 ---
 
 ## What kind of output can the user expect?
 
-- The computed Hartree-Fock energy of the molecule in atomic units (Hartree).  
+- The computed energy of the molecule in atomic units (Hartree).  
 - Convergence information for the SCF optimization process.  
 - Optionally, a visualization of molecular orbitals and electron densities (if visualization tools are integrated).  
 
@@ -29,12 +29,12 @@ The tool will:
 ## Technologies
 
 ### Programming Language:
-- Python (with options to extend functionality to C,  Rust or Zig for optimization).  
+- Python.  
 
 ### Dependencies:
-- `numpy`, `scipy`: For numerical computations.  
+- `conda` for installation of packages
+- `pyscf`, `psi4`: For numerical computations.  
 - `matplotlib`: For optional visualization.  
-- *(Optional)* `psi4` or `PySCF`: To validate results or as a library for advanced computations.  
 
 ### How to run it:
 1. Clone the repository:  
@@ -47,15 +47,19 @@ The tool will:
    pip install -r requirements.txt
    ```
 3. Run the tool with an input file:  
-   ```bash
-   python hartree_fock.py --input molecule.xyz --basis sto-3g
-   ```
+
+   python3 GLHF.py /path/to/input/file
+
+   Molecular geometry can be specified insida an input file (see test.input or test2.input) or added as a link using "path:path/to/file/" (see test3.input)
 
 ---
 
 ## Why is this project useful?
 
-This tool can serve as an educational platform for understanding quantum chemistry, particularly the Hartree-Fock method. It can also be extended for more advanced calculations (e.g., post-Hartree-Fock methods like MP2 or DFT) and integrated into larger research pipelines.  
+This tool simplifies interaction with python-based quantum packages and allows to easily use them for chemists who usually use classical quantum chemistry programs 
 
 ---
 
+## Acknowledgments
+
+This project was developed as part of the course WIS Python course. For more information, visit the course repository [https://github.com/szabgab/wis-python-course-2024-11].

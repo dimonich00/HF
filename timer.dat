@@ -1,0 +1,373 @@
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 03:32:53 2025
+Timers Off: Tue Feb  4 03:32:54 2025
+
+Wall Time:        0.57 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.017u      0.017s      0.013w      1 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.033s      0.018w      3 calls
+DFH: initialize()                   :      0.017u      0.017s      0.028w      1 calls
+DFH: AO Construction                :      0.000u      0.000s      0.002w      1 calls
+DFH: AO-Met. Contraction            :      0.000u      0.000s      0.001w      1 calls
+HF: Form core H                     :      0.000u      0.000s      0.001w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.050u      0.000s      0.032w      1 calls
+SAD Guess                           :      0.050u      0.000s      0.031w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.003w      9 calls
+JK: D                               :      0.000u      0.000s      0.000w      9 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      9 calls
+JK: JK                              :      0.000u      0.000s      0.002w      9 calls
+DFH: compute_JK()                   :      0.000u      0.000s      0.002w      9 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      9 calls
+DFH: compute_J                      :      0.000u      0.000s      0.001w      9 calls
+DFH: compute_K                      :      0.000u      0.000s      0.001w      9 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      9 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      9 calls
+HF: Form D                          :      0.000u      0.000s      0.000w      9 calls
+HF: DIIS                            :      0.067u      0.000s      0.026w      8 calls
+HF: Form C                          :      0.000u      0.000s      0.002w      8 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.017u      0.017s      0.013w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.017s      0.011w      1 calls
+DFH: initialize()                   :      0.017u      0.017s      0.028w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.017s      0.007w      2 calls
+| DFH: AO Construction              :      0.000u      0.000s      0.002w      1 calls
+| DFH: AO-Met. Contraction          :      0.000u      0.000s      0.001w      1 calls
+HF: Form core H                     :      0.000u      0.000s      0.001w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.050u      0.000s      0.032w      1 calls
+| SAD Guess                         :      0.050u      0.000s      0.031w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.003w      9 calls
+| JK: D                             :      0.000u      0.000s      0.000w      9 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w      9 calls
+| JK: JK                            :      0.000u      0.000s      0.002w      9 calls
+| | DFH: compute_JK()               :      0.000u      0.000s      0.002w      9 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w      9 calls
+| | | DFH: compute_J                :      0.000u      0.000s      0.001w      9 calls
+| | | DFH: compute_K                :      0.000u      0.000s      0.001w      9 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w      9 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      9 calls
+HF: Form D                          :      0.000u      0.000s      0.000w      9 calls
+HF: DIIS                            :      0.067u      0.000s      0.026w      8 calls
+HF: Form C                          :      0.000u      0.000s      0.002w      8 calls
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 03:38:11 2025
+Timers Off: Tue Feb  4 03:38:12 2025
+
+Wall Time:        0.46 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.000u      0.000s      0.001w      1 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.001w      3 calls
+DFH: initialize()                   :      0.017u      0.000s      0.004w      1 calls
+DFH: AO Construction                :      0.000u      0.000s      0.000w      1 calls
+DFH: AO-Met. Contraction            :      0.000u      0.000s      0.000w      1 calls
+HF: Form core H                     :      0.000u      0.000s      0.000w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.017u      0.000s      0.008w      1 calls
+SAD Guess                           :      0.017u      0.000s      0.008w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.000w      3 calls
+JK: D                               :      0.000u      0.000s      0.000w      3 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      3 calls
+JK: JK                              :      0.000u      0.000s      0.000w      3 calls
+DFH: compute_JK()                   :      0.000u      0.000s      0.000w      3 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      3 calls
+DFH: compute_J                      :      0.000u      0.000s      0.000w      3 calls
+DFH: compute_K                      :      0.000u      0.000s      0.000w      3 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      3 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      3 calls
+HF: Form D                          :      0.000u      0.000s      0.000w      3 calls
+HF: DIIS                            :      0.017u      0.000s      0.007w      2 calls
+HF: Form C                          :      0.000u      0.000s      0.000w      2 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.000u      0.000s      0.001w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.000w      1 calls
+DFH: initialize()                   :      0.017u      0.000s      0.004w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.000w      2 calls
+| DFH: AO Construction              :      0.000u      0.000s      0.000w      1 calls
+| DFH: AO-Met. Contraction          :      0.000u      0.000s      0.000w      1 calls
+HF: Form core H                     :      0.000u      0.000s      0.000w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.017u      0.000s      0.008w      1 calls
+| SAD Guess                         :      0.017u      0.000s      0.008w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.000w      3 calls
+| JK: D                             :      0.000u      0.000s      0.000w      3 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w      3 calls
+| JK: JK                            :      0.000u      0.000s      0.000w      3 calls
+| | DFH: compute_JK()               :      0.000u      0.000s      0.000w      3 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w      3 calls
+| | | DFH: compute_J                :      0.000u      0.000s      0.000w      3 calls
+| | | DFH: compute_K                :      0.000u      0.000s      0.000w      3 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w      3 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      3 calls
+HF: Form D                          :      0.000u      0.000s      0.000w      3 calls
+HF: DIIS                            :      0.017u      0.000s      0.007w      2 calls
+HF: Form C                          :      0.000u      0.000s      0.000w      2 calls
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 03:53:39 2025
+Timers Off: Tue Feb  4 03:53:39 2025
+
+Wall Time:        0.29 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 03:55:16 2025
+Timers Off: Tue Feb  4 03:55:16 2025
+
+Wall Time:        0.29 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 03:56:01 2025
+Timers Off: Tue Feb  4 03:56:02 2025
+
+Wall Time:        0.30 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 03:56:57 2025
+Timers Off: Tue Feb  4 03:56:57 2025
+
+Wall Time:        0.29 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:02:11 2025
+Timers Off: Tue Feb  4 04:02:12 2025
+
+Wall Time:        0.29 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:02:38 2025
+Timers Off: Tue Feb  4 04:02:39 2025
+
+Wall Time:        0.30 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:03:24 2025
+Timers Off: Tue Feb  4 04:03:24 2025
+
+Wall Time:        0.29 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:07:31 2025
+Timers Off: Tue Feb  4 04:07:31 2025
+
+Wall Time:        0.27 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:09:06 2025
+Timers Off: Tue Feb  4 04:09:06 2025
+
+Wall Time:        0.28 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:12:23 2025
+Timers Off: Tue Feb  4 04:12:23 2025
+
+Wall Time:        0.27 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:12:56 2025
+Timers Off: Tue Feb  4 04:12:56 2025
+
+Wall Time:        0.28 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:14:25 2025
+Timers Off: Tue Feb  4 04:14:25 2025
+
+Wall Time:        0.27 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:16:37 2025
+Timers Off: Tue Feb  4 04:16:37 2025
+
+Wall Time:        0.43 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      0.000u      0.000s      0.001w      1 calls
+Libint2ERI::Libint2ERI              :      0.000u      0.000s      0.001w      3 calls
+DFH: initialize()                   :      0.017u      0.000s      0.004w      1 calls
+DFH: AO Construction                :      0.000u      0.000s      0.000w      1 calls
+DFH: AO-Met. Contraction            :      0.000u      0.000s      0.000w      1 calls
+HF: Form core H                     :      0.000u      0.000s      0.000w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.000u      0.000s      0.008w      1 calls
+SAD Guess                           :      0.000u      0.000s      0.007w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.000w      3 calls
+JK: D                               :      0.000u      0.000s      0.000w      3 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      3 calls
+JK: JK                              :      0.000u      0.000s      0.000w      3 calls
+DFH: compute_JK()                   :      0.000u      0.000s      0.000w      3 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w      3 calls
+DFH: compute_J                      :      0.000u      0.000s      0.000w      3 calls
+DFH: compute_K                      :      0.000u      0.000s      0.000w      3 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      3 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      3 calls
+HF: Form D                          :      0.000u      0.000s      0.000w      3 calls
+HF: DIIS                            :      0.000u      0.000s      0.004w      2 calls
+HF: Form C                          :      0.000u      0.000s      0.000w      2 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.000u      0.000s      0.001w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.000w      1 calls
+DFH: initialize()                   :      0.017u      0.000s      0.004w      1 calls
+| Libint2ERI::Libint2ERI            :      0.000u      0.000s      0.000w      2 calls
+| DFH: AO Construction              :      0.000u      0.000s      0.000w      1 calls
+| DFH: AO-Met. Contraction          :      0.000u      0.000s      0.000w      1 calls
+HF: Form core H                     :      0.000u      0.000s      0.000w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.000u      0.000s      0.008w      1 calls
+| SAD Guess                         :      0.000u      0.000s      0.007w      1 calls
+HF: Form G                          :      0.000u      0.000s      0.000w      3 calls
+| JK: D                             :      0.000u      0.000s      0.000w      3 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w      3 calls
+| JK: JK                            :      0.000u      0.000s      0.000w      3 calls
+| | DFH: compute_JK()               :      0.000u      0.000s      0.000w      3 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w      3 calls
+| | | DFH: compute_J                :      0.000u      0.000s      0.000w      3 calls
+| | | DFH: compute_K                :      0.000u      0.000s      0.000w      3 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w      3 calls
+HF: Form F                          :      0.000u      0.000s      0.000w      3 calls
+HF: Form D                          :      0.000u      0.000s      0.000w      3 calls
+HF: DIIS                            :      0.000u      0.000s      0.004w      2 calls
+HF: Form C                          :      0.000u      0.000s      0.000w      2 calls
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:17:07 2025
+Timers Off: Tue Feb  4 04:17:07 2025
+
+Wall Time:        0.29 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: dmitry-IdeaPad-5-14ALC05
+
+Timers On : Tue Feb  4 04:17:48 2025
+Timers Off: Tue Feb  4 04:17:48 2025
+
+Wall Time:        0.35 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************

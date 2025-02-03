@@ -1,0 +1,5 @@
+# package: pyscf
+! HF STO-3G
+* xyz 0 1
+path:molecules/hydrogen.xyz
+*

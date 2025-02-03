@@ -2,7 +2,6 @@ def parse(filename):
     try:
         with open(filename, "r") as file:
             number_of_atoms = 0
-            atom_types = []
             atom_coordinates = []
 
             for idx, line in enumerate(file):
@@ -16,16 +15,10 @@ def parse(filename):
                     continue
 
                 if idx != 0:
-                    split = line.split()
-                    atom = split[0]
-                    coordinates = [float(split[1]), float(
-                        split[2]), float(split[3])]
-
-                    atom_types.append(atom)
-                    atom_coordinates.append(coordinates)
+                    atom_coordinates.append(line.strip())
 
     except FileNotFoundError:
         print("File not found")
         exit()
 
-    return number_of_atoms, atom_types, atom_coordinates
+    return atom_coordinates
