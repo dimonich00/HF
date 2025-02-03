@@ -12,9 +12,8 @@ The tool will:
 ---
 
 ## What kind of input data does it expect?
-
+- **Input file**: Examples can be found inside folder
 - **Molecular structure**: A list of atoms and their 3D Cartesian coordinates (e.g., in [XYZ format](https://en.wikipedia.org/wiki/XYZ_file_format)).  
-- **Basis set**: A predefined basis set (e.g., STO-3G or 6-31G) to describe the atomic orbitals.  
 
 ---
 
