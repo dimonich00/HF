@@ -52,10 +52,12 @@ The tool will:
    ```bash
    conda install -c requirements.txt
    ```
-4. Run the tool with an input file:  
+4. Run the tool with an input file:
 
+   ```bash
    python3 GLHF.py /path/to/input/file
-
+   ```
+   
    Molecular geometry can be specified insida an input file (see test.input or test2.input) or added as a link using "path:path/to/file/" (see test3.input)
 
 ---
