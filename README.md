@@ -42,8 +42,10 @@ The tool will:
    cd HF
    ```
 2. Install dependencies:
+   ```bash
    conda install psi4 python=3.10 -c conda-forge
    conda install -c pyscf -c conda-forge pyscf
+   ```
 
    or
      
