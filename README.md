@@ -41,11 +41,16 @@ The tool will:
    git clone https://github.com/dimonich00/HF.git
    cd HF
    ```
-2. Install dependencies:  
+2. Install dependencies:
+   conda install psi4 python=3.10 -c conda-forge
+   conda install -c pyscf -c conda-forge pyscf
+
+   or
+     
    ```bash
-   pip install -r requirements.txt
+   conda install -c requirements.txt
    ```
-3. Run the tool with an input file:  
+4. Run the tool with an input file:  
 
    python3 GLHF.py /path/to/input/file
 
